@@ -1,0 +1,25 @@
+{
+  "rmse": {
+    "svd": 0.8761774107867902,
+    "global_mean_baseline": 0.9979226781688406
+  },
+  "ndcg_at_10": {
+    "content": 0.04473702585212589,
+    "svd": 0.1714708581886047,
+    "hybrid_k2": 0.17435049425252633,
+    "hybrid_k5": 0.1786840158119033,
+    "hybrid_k10": 0.18130589707567096,
+    "hybrid_k20": 0.17735812939426665,
+    "hybrid_k50": 0.15529883466852498
+  },
+  "best_k": 10,
+  "n_eval_users": 591,
+  "n_train_ratings": 54328,
+  "n_test_ratings": 13519,
+  "n_movies": 1295,
+  "n_users": 610,
+  "n_factors": 30,
+  "like_threshold": 4.0,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "explained_variance": 0.35317298769950867
+}
