@@ -197,7 +197,11 @@ export default function Home() {
       </main>
 
       <footer className="mt-12 border-t border-[var(--border)] pt-6 text-xs text-[var(--text-muted)]">
-        <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+         <div className="flex items-center gap-3">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/tmdb.svg" alt="TMDB logo" className="h-3 opacity-70" />
+          <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+        </div>
         <p className="mt-1">Built by Navaneeth M · Python for AI</p>
       </footer>
 
